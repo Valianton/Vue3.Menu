@@ -1,0 +1,9 @@
+:root {
+    --surface-d: rgba(0, 0, 0, .12);
+    --surface-hover: rgba(0, 0, 0, .04);
+}
+
+body {
+    height: 100dvh;
+    display: grid;
+}

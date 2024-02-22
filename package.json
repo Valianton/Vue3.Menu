@@ -1,10 +1,14 @@
 {
   "name": "vue3-menu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "license": "MIT",
   "author": "Ramaway",
-  "keywords": ["vue3", "menu", "typescript"],
+  "keywords": [
+    "vue3",
+    "menu",
+    "typescript"
+  ],
   "description": "Simple multi-level menu on Vue3",
   "scripts": {
     "dev": "vite",

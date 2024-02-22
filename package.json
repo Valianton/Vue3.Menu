@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/vue": "^2.0.0",
     "radix-vue": "^1.4.6",
     "vue": "^3.4.15"
   },

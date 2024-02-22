@@ -5,8 +5,8 @@
   import Menu from './Menu.vue';
   import IconMenuRight from './IconMenuRight.vue';
   import MenuItem from './MenuItem.vue';
-  import { menuBehaviorType, MenuItemProps } from '../types';
   import ScrollArea from './ScrollArea.vue';
+  import { menuBehaviorType, MenuItemProps } from './types';
 
   /**
    * @todo: создать неявную взаимосвязь между menu. Когда есть три вложенности меню и пользователь открыл последнюю из них
@@ -16,7 +16,7 @@
     items: MenuItemProps[]
     appendTo?: string
     anchor?: any
-    offset?:  any
+    offset?: any
     behavior?: menuBehaviorType
     customClassName?: string
     context?: boolean

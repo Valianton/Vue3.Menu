@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 
-  import { IconProps } from '../types';
+  import { IconProps } from './types';
 
   withDefaults(defineProps<IconProps>(), {
     size: 18,

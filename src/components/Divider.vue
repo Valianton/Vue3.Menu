@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-  import { DividerProps } from '../types';
+  import { DividerProps } from './types';
 
   withDefaults(defineProps<DividerProps>(), {
     type: 'vertical',

@@ -17,7 +17,7 @@
       label: 'Bu URL',
     }, {
       label: 'Camera',
-    }]
+    }],
   }, {
     label: 'Search the web',
   }, {

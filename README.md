@@ -1,5 +1,9 @@
 # Multi-Level Menu Component
 
+Simple multi-level menu on Vue3<br/>
+Установка
+<code>npm i vue3-menu</code>
+
 | Prop            | Default | Required | Type                                                                                                                                                              |
 |:----------------|:-------:|:--------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | items           |         |   true   | <code>MenuItemProps[]</code><br/>Array of menu items                                                                                                              |

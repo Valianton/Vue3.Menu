@@ -12,7 +12,7 @@ export default defineConfig({
     lib: {
       entry: './src/components/index.ts',
       name: 'Vue3Menu',
-      fileName: 'vue3menu.js',
+      fileName: 'vue3menu',
     },
     rollupOptions: {
       external: ['vue'],

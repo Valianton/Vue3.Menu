@@ -4,6 +4,7 @@
   "type": "module",
   "license": "MIT",
   "author": "Ramaway",
+  "unpkg": "./dist/vue3menu.js",
   "keywords": [
     "vue3",
     "menu",

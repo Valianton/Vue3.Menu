@@ -1,16 +1,30 @@
 {
   "name": "vue3-menu",
-  "version": "1.0.2",
   "type": "module",
-  "license": "MIT",
+  "version": "1.0.2",
+  "description": "Simple multi-level menu on Vue3",
   "author": "Ramaway",
-  "unpkg": "./dist/vue3menu.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Valianton/Vue3.Menu.git"
+  },
+  "main": "dist/vue3menu.js",
+  "files": [
+    "src",
+    "dist",
+    "index.d.ts"
+  ],
   "keywords": [
     "vue3",
     "menu",
-    "typescript"
+    "typescript",
+    "context"
   ],
-  "description": "Simple multi-level menu on Vue3",
+  "bugs": {
+    "url": "https://github.com/Valianton/Vue3.Menu/issues"
+  },
+  "homepage": "https://github.com/Valianton/Vue3.Menu#readme",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",

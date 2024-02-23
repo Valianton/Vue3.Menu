@@ -1,7 +1,5 @@
 <script setup lang="ts">
-  import Menu from './components/Menu.vue';
-  // import { Vue3Menu as Menu } from '../dist/vue3menu.js';
-  // import Menu from 'https://raw.githubusercontent.com/Valianton/Vue3.Menu/main/dist/assets/index-DLW6ZMhC.js';
+  import { Vue3Menu } from './components';
 
   const items = [{
     label: 'Upload from computer',
@@ -38,7 +36,7 @@
 <template>
   <div>
     123
-    <Menu
+    <Vue3Menu
         :items="items"
     />
   </div>

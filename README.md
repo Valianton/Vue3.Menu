@@ -1,8 +1,22 @@
 # Multi-Level Menu Component
 
 Simple multi-level menu on Vue3<br/>
-Установка
-<code>npm i vue3-menu</code>
+
+### Usage
+
+```
+npm install -save vue3-menu
+```
+
+```js
+import { Vue3Menu } from 'vue3-menu';
+```
+To apply styles
+```js
+import 'vue3-menu/src/assets/menu.css';
+```
+Or you can add your own menu styles using the .epic-menu class for menu
+# Menu props
 
 | Prop            | Default | Required | Type                                                                                                                                                              |
 |:----------------|:-------:|:--------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -14,7 +28,7 @@ Simple multi-level menu on Vue3<br/>
 | customClassName |         |  false   | <code>string</code><br/>Additional class name for customizing menus with custom styles. When rendering the menu uses Teleport, that's why this property was added |
 | context         |         |  false   | <code>boolean</code><br/>Defines the context menu display mode                                                                                                    |
 
-# MenuItem Component
+# MenuItemProps
 
 | Prop            | Default | Required | Type                                                                                                  |
 |:----------------|:-------:|:--------:|:------------------------------------------------------------------------------------------------------|
@@ -32,7 +46,7 @@ Simple multi-level menu on Vue3<br/>
 
 ## Simple menu
 
-```
+```js
 const items = [{
         label: 'Upload from computer',
     }, {
@@ -44,16 +58,20 @@ const items = [{
     }, {
         label: 'Photos',
     }, {
-        label: 'Bu URL',
+        label: 'By URL',
     }, {
         label: 'Camera',
     }];
 ```
 
-```
+```html
 <template>
   <div>
     <Menu :items="items"/>
   </div>
 </template>
 ```
+
+## License
+
+[MIT](./LICENSE)

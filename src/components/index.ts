@@ -1,7 +1,3 @@
 /// <reference path="./types.d.ts" />
 
-import Vue3Menu from './Menu.vue';
-
-export {
-  Vue3Menu
-}
+export { default as Vue3Menu } from "./Menu.vue";

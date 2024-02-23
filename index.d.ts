@@ -1,0 +1,1 @@
+export { default as Vue3Menu } from "./src/components/Menu.vue";

@@ -1,7 +1,7 @@
 {
   "name": "vue3-menu",
   "type": "module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple multi-level menu on Vue3",
   "author": "Ramaway",
   "license": "MIT",
